@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page1.css"/>
+    <script src="page1.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <div style="padding: 25px; width: 300px;">
+            
+            <label style="padding: 20px;">
+                <input type="checkbox" id="myCheckbox"> stop\start view cpu usage
+            </label>
+            <div style="color: lightgoldenrodyellow;">checked is on and uncheck is off</div>
+
+            <div id="serverUseage"></div>
+        </div>
+        <div>
+            <div style="margin-left: 20px;">Proccesses in memory</div>
+            <div id="allServerThreads"></div>
+        </div>
+        <div style="padding: 25px; width: 250px;">
+            <div style="display: flex;">
+                <h3>list of Servers</h3>
+                <button id="refresh">refresh list</button>
+            </div>
+            <div id="nameList"></div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
